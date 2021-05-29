@@ -10,8 +10,8 @@ type configModel struct {
 
 var config = configModel{
 	mongoUri:    "mongodb://localhost:27017/twitter",
-	mongoDb:     "react-recipes",
-	tokenSecret: "secret",
+	mongoDb:     "twitter",
+	tokenSecret: "twittersceret",
 	tokenExp:    "1h",
 	serveUri:    ":4444",
 }
